@@ -48,10 +48,6 @@ header{
     text-decoration: none;
 }
 
-.navlinks li a:hover{
-    color: aqua;
-}
-
 
 button{
     display: block;
@@ -61,7 +57,7 @@ button{
     text-decoration: none;
     background-color: black;
     border: none;
-    font-size: 15px;
+    font-size: 17px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
@@ -125,5 +121,5 @@ footer {
     .button{
         padding: 5px 14px;
     }
-    
 }
+    

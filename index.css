@@ -60,7 +60,7 @@ button {
     text-decoration: none; 
     background-color: black;
     border: none;
-    font-size: 15px;
+    font-size: 17px;
     cursor: pointer;
     transition: all 0.3s ease 0s; /* Overgangseffekt ved hover på knapper */
 }
