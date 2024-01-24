@@ -127,7 +127,7 @@ button:hover {
 }
 
 /* Media Query for mindre skjermer */
-@media (max-width: 1200px){
+@media (max-width: 1600px){
     header{
         padding: 9px 4%;
     }
