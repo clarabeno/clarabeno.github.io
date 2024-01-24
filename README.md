@@ -6,3 +6,5 @@ https://www.vogue.com.au/travel/destinations/worlds-best-sunset-spots/image-gall
 https://www.hdwallpapers.in/triangle_solid_black_gold_4k_hd_abstract-wallpapers.html
 https://www.chrombeschriftung.de/Gold-letter-3cm
 https://www.vg.no/forbruker/reise/i/8wAQJ1/ni-fantastiske-steder-aa-se-solnedganger
+
+Helst åpne i chrome fordi target=_blank ikke fingerer i safari:)
