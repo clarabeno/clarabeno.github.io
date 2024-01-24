@@ -1,5 +1,5 @@
 # clarabeno.github.io
-jeg skulle egentlig bruke egne bilder, men jeg klarte ikke å overføre de fra telefonen
+jeg skulle egentlig bruke egne bilder av meg selv, men jeg klarte ikke å overføre de fra telefonen
 så jeg måtte bruke fra nettet og her er kildene:
 https://e24.no/internasjonal-oekonomi/i/Adxxxx/derfor-er-elever-i-singapore-nummer-en-i-matte
 https://www.vogue.com.au/travel/destinations/worlds-best-sunset-spots/image-gallery/31e3bf71485eed60aff531b65a0cf822
