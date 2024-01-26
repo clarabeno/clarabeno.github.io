@@ -50,11 +50,6 @@ header {
     text-decoration: none;
 }
 
-/* Hover-effekt for lenkene i navbar */
-.navlinks li a:hover {
-    color: aqua;
-}
-
 button {
     display: block;
     color: white;

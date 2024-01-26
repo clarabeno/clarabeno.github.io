@@ -48,10 +48,6 @@ header{
     text-decoration: none;
 }
 
-.navlinks li a:hover{
-    color: aqua;
-}
-
 
 button{
     display: block;

@@ -48,9 +48,6 @@ header {
     text-decoration: none;
 }
 
-.navlinks li a:hover {
-    color: aqua; /* Fargeendring ved hover-effekt på navigasjonslenker */
-}
 
 button {
     display: block; /*elementet tar opp hele bredden av sin foreldercontainer */
