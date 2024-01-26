@@ -9,5 +9,7 @@ https://www.vg.no/forbruker/reise/i/8wAQJ1/ni-fantastiske-steder-aa-se-solnedgan
 
 Helst åpne i chrome fordi target=_blank ikke fingerer i safari
 
+filene jeg har lagd spesifikt for dette prosjektet er: index, aboutme, prosjekter og kontakt
+
 link til nettsiden: https://clarabeno.github.io
 
