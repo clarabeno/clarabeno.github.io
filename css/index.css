@@ -1,0 +1,218 @@
+
+/* generelt for hele nettsiden*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Bakgrunnsfarge for hele nettsiden */
+    font-family: 'Roboto', sans-serif; /* Skrifttype */
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+
+/* Navbar */
+
+header {
+    display: flex; /*definerer elementet som en flex-container*/
+    justify-content: space-between; /*plasserer det første elementet helt til venstre det siste helt til høyre og resten i midten*/
+    align-items: center;
+    padding: 20px 10%; /* Padding for navbar */
+}
+
+.kontakt {
+    text-decoration: none;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0 20px; /* Mellomrom mellom navigasjonslenker */
+}
+
+.navlinks a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* Mellomrom og padding for navigasjonslenker */
+    text-decoration: none;
+}
+
+
+button {
+    display: block; /*elementet tar opp hele bredden av sin foreldercontainer */
+    color: white;
+    text-align: center; /*midtstiller teksten*/
+    padding: 14px 16px;
+    text-decoration: none; 
+    background-color: black;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; /* Overgangseffekt ved hover på knapper */
+}
+
+.button {
+    padding: 10px 30px;
+    background-color: gold;
+    border-radius: 50px;
+    color: black;
+}
+
+button:hover {
+    color: aqua; /* Fargeendring ved hover-effekt på knapper */
+}
+
+/* Hjemseksjon */
+
+.home-section {
+    text-align: center; 
+    padding-top: 50px; /* Topp padding */
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px; /* Luft nederst for hjemseksjonen */
+}
+
+/* Om meg-seksjon */
+
+.about-content {
+    display: flex;
+    align-items: center; /*midtstiller vertikalt*/
+    justify-content: center;/*midtstiller horisontalt*/
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 70%; 
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 100px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Skyggeeffekt */
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.about-image img {
+    width: 100%; 
+    border-radius: 8px; /* Avrundede hjørner for bildet */
+}
+
+.about-text {
+    flex: 2; /* elementet tar opp dobbelt så mye ledig plass som elementet med flex:1*/
+    background-color: #b388eb; /* Bakgrunnsfarge for teksten om meg */
+    padding: 30px;
+    max-width: 70%;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    height: 50vh; /* Høyde for tekstområdet i om-seksjonen */
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+/* Prosjektseksjon */
+
+.projects-section {
+    padding: 30px;
+    margin: 0 auto; 
+    max-width: 70%; 
+    color: #fff;
+    background-color: #f7aef8; 
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Skyggeeffekt */
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+}
+
+.project-links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    flex-direction: column; /*gjør så elementene plasseres i kolonner*/
+    flex: 1; /* Bruk av flex-bokser for å plassere linkene */
+}
+
+.project-links a:hover {
+    color: aqua; /* Fargeendring ved hover-effekt på prosjektene */
+}
+
+/* Footer-stiler */
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 10%;
+}
+
+/* Responsivt design for mindre skjermer*/
+
+@media (max-width: 900px) {
+    header{
+        padding: 9px 4%;
+    }
+    
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .navlinks li {
+        padding: 0 9px;
+    }
+    
+    .navlinks a{
+        padding: 5px 7px;
+    }
+    
+    
+    button{
+        text-align: center;
+        padding: 5px 7px;
+    }
+    
+    .button{
+        padding: 5px 14px;
+    }
+    
+    .home-section {
+        padding-top: 20px; /* Justert topp padding for hjemseksjone */
+    }
+
+    .about-content {
+        flex-direction: column; /* Endrer flex-direction til kolonne */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-image,
+    .about-text {
+        flex: 1; /*elementet tar opp all ledig plass*/
+        margin: 0 auto;
+    }
+
+    .about-text {
+        height: fit-content; /* Justert høyde for tekstområdet */
+    }
+
+    .about-content,
+    .projects-section {
+        padding: 15px; /* Justert padding ved mindre skjermstørrelser */
+    }
+}
+
